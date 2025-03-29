@@ -6,6 +6,7 @@ from sklearn.exceptions import InconsistentVersionWarning
 # Suppress the version warnings
 warnings.filterwarnings("ignore", category=InconsistentVersionWarning)
 
+
 # Explicitly specify trusted types
 trusted_types = [
     "sklearn.pipeline.Pipeline",
